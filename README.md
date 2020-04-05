@@ -1,3 +1,4 @@
+[![License](https://img.shields.io/badge/license-mit-green.svg)](./LICENSE.md)
 [![Build Status](https://travis-ci.org/Dimmus/dockerized-rails-app.svg?branch=staging)](https://travis-ci.org/Dimmus/dockerized-rails-app)
 
 # README
