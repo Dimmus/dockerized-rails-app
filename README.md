@@ -1,4 +1,4 @@
-https://travis-ci.org/Dimmus/dockerized-rails-app.svg?branch=staging
+[![Build Status](https://travis-ci.org/Dimmus/dockerized-rails-app.svg?branch=staging)](https://travis-ci.org/Dimmus/dockerized-rails-app)
 
 # README
 
