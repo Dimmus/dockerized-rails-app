@@ -68,3 +68,6 @@ group :test , :development do
   gem 'rack-livereload'
   gem 'foreman'
 end
+
+gem 'omniauth', '~> 1.8.1'
+gem 'omniauth-auth0', '~> 2.0.0'
