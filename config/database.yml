@@ -62,4 +62,6 @@ test:
   <<: *default
   database: noteapp_test
 
+production:
+  url: <%= ENV['DATABASE_URL'] %>
 
