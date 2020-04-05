@@ -1,6 +1,8 @@
 [![License](https://img.shields.io/badge/license-mit-green.svg)](./LICENSE.md)
 [![Build Status](https://travis-ci.org/Dimmus/dockerized-rails-app.svg?branch=staging)](https://travis-ci.org/Dimmus/dockerized-rails-app)
 [![Code Climate](https://codeclimate.com/github/Dimmus/dockerized-rails-app/badges/gpa.svg)](https://codeclimate.com/github/Dimmus/dockerized-rails-app)
+[![Inline docs](http://inch-ci.org/github/Dimmus/dockerized-rails-app.svg)](http://inch-ci.org/github/Dimmus/dockerized-rails-app)
+[![Coverage Status](https://coveralls.io/repos/github/Dimmus/dockerized-rails-app/badge.svg?branch=staging)](https://coveralls.io/github/Dimmus/dockerized-rails-app?branch=staging)
 
 # README
 
