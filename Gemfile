@@ -67,7 +67,9 @@ group :test , :development do
   gem 'guard-minitest', '~>2.4.6', require: false
   gem 'rack-livereload'
   gem 'foreman'
+  gem 'coveralls', require: false
 end
 
 gem 'omniauth', '~> 1.8.1'
 gem 'omniauth-auth0', '~> 2.0.0'
+
