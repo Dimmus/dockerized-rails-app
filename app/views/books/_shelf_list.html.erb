@@ -1,0 +1,7 @@
+<!-- app/views/books/_shelf_list.html.erb -->
+<section class="shelves">
+    <%= link_to "All",books_path %>
+    <% Shelf.places.keys.each do |shelf| %>
+        <%= link_to shelf.capitalize,books_path(place: shelf) %>
+    <% end %>
+</section>
