@@ -1,3 +1,5 @@
+https://travis-ci.org/Dimmus/dockerized-rails-app.svg?branch=staging
+
 # README
 
 This README would normally document whatever steps are necessary to get the
