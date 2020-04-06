@@ -21,7 +21,11 @@ COPY . /noteapp
 # COPY entrypoint.sh /usr/bin/
 # RUN chmod +x /usr/bin/entrypoint.sh
 # ENTRYPOINT ["entrypoint.sh"]
-EXPOSE 3000
 
-# Start the main process.
-# CMD ["rails", "server", "-b", "0.0.0.0"]
+FROM base as dev
+
+ENV RAILS_ENV=development
+
+EXPOSE 3000
+CMD [ "rails", "server", "-b", "0.0.0.0" ]
+
