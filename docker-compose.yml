@@ -4,6 +4,7 @@ volumes:
   db: {}
   cache:
   # bundle:
+  gem_cache:
 
 services:
   db:
@@ -28,6 +29,7 @@ services:
       - .:/noteapp
       - cache:/cache
       # - bundle:/bundle
+      - gem_cache:/usr/local/bundle/gems
     tmpfs: /noteapp/tmp/pids/
     ports:
       - "3001:3000"
